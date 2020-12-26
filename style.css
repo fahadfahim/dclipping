@@ -615,6 +615,7 @@ list-style: none;
 input#formGroupExampleInput {
     height: 50px;
     margin-bottom: 50px;
+    border-radius: 50px;
 }
 .talk-form button{
     width: 231px;
@@ -646,6 +647,272 @@ input#formGroupExampleInput {
     flex-direction: column;
     justify-content: center;
 }
+.crt-acc{
+    font-size: 20px;
+}
+.free-tri
+/*pricing*/
+.price-showcase h1{
+font-size: 62px;
+margin-bottom: 70px;
+}
+.frm-head h1{
+    margin-bottom: 55px;
+}
+.pricing-text{
+    margin-left: 108px;
+}
+.pricing-text img{
+    width: 117px;
+    height: 113px;
+    margin-bottom: 48px;
+}
+.pricing-text h1{
+    font-size: 62px;
+}
+.pricing-text p{
+    margin-top: 40px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.price-img img{
+    margin-left: 50px;
+}
+.pricing-text button{
+    width: 268px;
+    height: 72px;
+    border:  none;
+    font-size: 20px;
+    background: linear-gradient(274deg, rgba(119,204,122,1) 37%, rgba(14,136,200,1) 87%);
+    color: #fff;
+    border-radius: 50px;
+
+}
+.pricing-text .free-tri{
+    width: 268px;
+    height: 72px;
+    border:  none;
+    font-size: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 50px;
+    border: 2px solid rgb(25, 108, 185);
+    margin-left: 30px;
+
+}
+.pricing-text h4{
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.price-text {
+    display: flex;
+    width: 471px;
+    height: auto;
+    background: rgb(246, 246, 246);
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    border-radius: 10px;
+    padding-right: 30px;
+    margin-right: 25px;
+    -webkit-box-shadow: 5px 10px 34px 4px rgba(0,0,0,0.26); 
+    box-shadow: 5px 10px 34px 4px rgba(0,0,0,0.26);
+}
+.price-head h1{
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+.price-head h4{
+    margin-bottom: 34px;
+    font-size: 36px;
+}
+.price-text ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    padding: 0;
+    margin-right: 30px;
+    
+}
+.price-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: -25px; */
+    width: 230px;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+    background: linear-gradient(274deg, rgba(119,204,122,1) 37%, rgba(14,136,200,1) 87%);
+}
+.price-text ul li{
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.price-form {
+    width: 674px;
+    height: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 10px 34px 4px rgba(0,0,0,0.26); 
+    box-shadow: 5px 10px 34px 4px rgba(0,0,0,0.26);
+}
+.price-form form{
+    width: 95%;
+}
+.price-form-btn button{
+    width: 228px;
+    height: 73px;
+    border: none;
+    background: linear-gradient(274deg, rgba(119,204,122,1) 37%, rgba(14,136,200,1) 87%);
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*upload btn*/
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 28px;
+    background: #ffffff;
+  }
+  
+  .btn {
+    border: none;
+    color: #19aaf8;
+    cursor: pointer;
+    background-color: rgb(243, 240, 240);
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .price-und-text {
+      margin-bottom: 48px;
+  }
+  /*showcase*/
+  .showcase-heading h1{
+      margin-top: 70px;
+      padding-top: 70px;
+      margin-bottom: 90px;
+      font-size: 48px;
+  }
+  .showcase{
+      height: 100vh;
+      background: #032d43;
+      color: #fff;
+  }
+  .showcase-area img{
+      margin-bottom: 27px;
+  }
+  .showcase-area h2{
+      margin-bottom: 25px;
+      font-size: 29px;
+  }
+  .bottom-area{
+      margin-top: 20px;
+  }
+  /*payment*/
+  .payment-text h1{
+      margin-top: 90px;
+      margin-bottom: 35px;
+      font-size: 62px;
+  }
+  .payment-text p{
+      font-size: 18px;
+  }
+  .payment-img{
+      margin-top: 75px;
+      
+  }
+  .payment-img img{
+      width: 70px;
+  }
+  /*workflow*/
+  .work-with-us{
+      margin-top: 95px;
+      background: linear-gradient(0deg, rgba(20, 160, 73, 0.3), rgba(0, 255, 64, 0.3)), url(img/workflow_2.png) rgba(116, 160, 103, 0.972);
+      /* background-position: center; */
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding-top: 110px;
+      /* padding-bottom: 60px; */
+      color: #fff;
+    }
+    .work-with-us h1{
+        margin-bottom: 60px;
+        font-size: 62px;
+    }
+    .work-with-us h3{
+        margin-bottom: 110px;
+        font-size: 43px;
+    }
+
+    /*work-process-showcase*/
+    .work-showcase-area{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .work-showcase{
+        background:#fff;
+    }
+    .work-show{
+        height: 405px;
+        width: 405px;
+        padding: 15px;
+    }
+    /* client-like-our-service */
+    .client-like-our-service{
+        padding-left: 98px;
+        background: url(img/Grouppeople.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .client-like-our-service h1{
+        font-size: 62px;
+        margin-bottom: 75px;
+    }
+    .client-like-our-service p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* want to see our service  */
+    .features-include h1{
+font-size: 62px;
+    }
+    .feat-btn button{
+        height: 72px;
+        width: 400px;
+        border: none;
+        background: linear-gradient(274deg, rgba(119,204,122,1) 37%, rgba(14,136,200,1) 87%);
+        border-radius: 50px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
 @media screen and (max-width:768px){
     .logo img{
         margin-left: 0;
@@ -756,18 +1023,11 @@ input#formGroupExampleInput {
     .client-img img {
         width: 285px;
         height: 215px;
-        /* border-radius: 10px; */
     }
     .client-text h1 {
-        /* font-size: 62px; */
         margin-top: 46px;
         margin-bottom: 46px;
     }
-    /* .our-client-img{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 8px;
-    } */
     .our-client-text h1 {
         margin-top: 78px;
         margin-bottom: 59px;
@@ -789,12 +1049,7 @@ input#formGroupExampleInput {
         display: block;
     }
     .mobile-view-btn .rounded_rectangle_1{
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         margin-top: 48px;
-        /* text-align: center;
-        align-self: center; */
         width: 220px;
         height: 49px;
     }
